@@ -1,0 +1,29 @@
+{
+    "name": "stackline-typescript",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "webpack serve",
+        "build": "tsc && webpack"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.5",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-redux": "^8.0.0",
+        "recharts": "^2.15.0",
+        "redux": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.26",
+        "@types/react-dom": "^18.0.10",
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.0.0",
+        "style-loader": "^4.0.0",
+        "ts-loader": "^9.4.1",
+        "typescript": "^5.3.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^5.0.0",
+        "webpack-dev-server": "^5.0.0"
+    }
+}
