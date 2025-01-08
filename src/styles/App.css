@@ -1,0 +1,26 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Full viewport height */
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-panel {
+    flex: 1; /* Adjust size ratio between panels */
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.right-panel {
+    flex: 3; /* Occupies more space compared to left panel */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

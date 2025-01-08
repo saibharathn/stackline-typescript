@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #002c71; /* Use a dark blue for the header background */
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
